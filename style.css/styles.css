@@ -1,0 +1,563 @@
+/* Navigation Bar Styling */
+header {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+header .logo {
+  width: 80px; /* Logo width */
+  margin: 0 auto; /* Center the logo */
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Center navigation items */
+  align-items: center;
+}
+
+nav ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center navigation links */
+}
+
+nav ul li {
+  margin: 0 15px; /* Spacing between menu items */
+}
+
+nav ul li a {
+  color: #fff; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Padding around links */
+  display: block; /* Make link block-level for padding */
+  transition: background 0.3s, border-radius 0.3s; /* Smooth transition for hover effects */
+}
+
+nav ul li a:hover {
+  background: #333; /* Dark grey background on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Header styling */
+header h1 {
+  margin: 15px 0; /* Margin around header text */
+  font-size: 2rem; /* Font size for header */
+  color: #fff; /* White text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap; /* Wrap menu items on small screens */
+  }
+
+  nav ul li {
+    margin: 5px 10px; /* Adjust margin for smaller screens */
+  }
+
+  nav ul li a {
+    padding: 10px 12px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 24px; /* Smaller font size for very small screens */
+  }
+}
+
+/* Table styles */
+table {
+  width: 100%; /* Full width tables */
+  border-collapse: collapse; /* Collapse borders between cells */
+  margin-top: 20px;
+  background-color: #fff; /* White background for tables */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  overflow: hidden; /* Ensure shadow is contained */
+}
+
+th, td {
+  padding: 15px; /* Padding inside cells */
+  text-align: left; /* Align text to the left */
+  border-bottom: 1px solid #ddd; /* Light grey border for rows */
+}
+
+th {
+  background-color: #000; /* Black background for table headers */
+  color: #fff; /* White text for headers */
+}
+
+td {
+  border-bottom: 1px solid #eee; /* Light grey border for table rows */
+}
+
+tfoot td {
+  text-align: center; /* Center-align footer text */
+  font-weight: bold; /* Bold text for footer */
+  background-color: #f4f4f4; /* Light grey background for footer */
+  color: #000; /* Black text for footer */
+  border-top: 2px solid #000; /* Black border-top for footer */
+}
+
+/* Headings styling */
+h1 {
+  margin: 20px 0; /* Margin around main headings */
+  text-align: center; /* Center-align headings */
+  font-size: 2.5em; /* Font size for main headings */
+  color: #fff; /* White text */
+}
+
+h2, h3 {
+  margin: 20px 0; /* Margin around subheadings */
+  text-align: center; /* Center-align subheadings */
+  color: #111111; /* Dark text color */
+}
+
+h2 {
+  font-size: 2em; /* Font size for h2 headings */
+}
+
+h3 {
+  font-size: 1.5em; /* Font size for h3 headings */
+}
+
+/* Main content styling */
+main {
+  padding: 40px 20px; /* Padding inside the main content */
+  max-width: 1200px; /* Maximum width for main content */
+  margin: 0 auto; /* Center the content */
+}
+
+/* Section styling */
+section {
+  margin-bottom: 40px; /* Spacing between sections */
+}
+
+/* Responsive image styling */
+.responsive-img {
+  width: 100%; /* Full width images */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 600px; /* Maximum width for large images */
+  display: block; /* Display as block */
+  margin: 0 auto; /* Center the image */
+  padding: 20px 0; /* Padding around the image */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Branch section styles */
+.branch {
+  padding: 20px; /* Padding inside branch section */
+}
+
+.branch-grid {
+  display: grid; /* Grid layout for branch items */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Spacing between grid items */
+}
+
+.branch-item {
+  background-color: #fff; /* White background for items */
+  padding: 20px; /* Padding inside items */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.branch-item h3 {
+  margin-top: 10px; /* Margin above branch item heading */
+  color: #0044cc; /* Blue color for headings */
+}
+
+.branch-item img.responsive-img {
+  max-width: 100%; /* Ensure images don't overflow */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Display as block */
+  margin-bottom: 10px; /* Margin below image */
+}
+
+.branch-item iframe {
+  width: 100%; /* Full width iframe */
+  height: 300px; /* Fixed height for iframe */
+  border: none; /* Remove default border */
+  margin-top: 10px; /* Margin above iframe */
+}
+
+/* Reservation form styling */
+.reservation-form h2 {
+  text-align: center; /* Center-align form heading */
+  color: #333; /* Dark text color */
+}
+
+.reservation-form form {
+  display: grid; /* Grid layout for form */
+  gap: 15px; /* Spacing between form elements */
+  padding: 0 20px; /* Padding around form */
+}
+
+.reservation-form label {
+  font-weight: bold; /* Bold text for labels */
+  color: #333; /* Dark text color */
+}
+
+.reservation-form input[type="text"],
+.reservation-form input[type="date"],
+.reservation-form select {
+  width: 100%; /* Full width inputs and selects */
+  padding: 10px; /* Padding inside fields */
+  border: 1px solid #ddd; /* Light grey border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.reservation-form input[type="submit"] {
+  background-color: #007bff; /* Blue background for submit button */
+  color: #fff; /* White text */
+  border: none; /* Remove border */
+  padding: 15px; /* Padding inside button */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for button text */
+}
+
+.reservation-form input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Services section */
+#services {
+  margin-bottom: 40px; /* Spacing below services section */
+}
+
+.services-grid {
+  display: grid; /* Grid layout for services */
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Spacing between grid items */
+  box-shadow: 0 2px 5px rgba(91, 100, 229, 0.1); /* Shadow for depth */
+}
+
+.service-item {
+  background-color: #fff; /* White background for service items */
+  padding: 15px; /* Padding inside items */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(91, 100, 229, 0.1); /* Shadow for depth */
+  text-align: center; /* Center-align text */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.service-item:hover {
+  transform: translateY(-10px); /* Lift item on hover */
+}
+
+.service-item img {
+  width: 100%; /* Full width images */
+  height: 140px; /* Fixed height for images */
+  object-fit: cover; /* Cover aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(91, 100, 229, 0.1); /* Shadow for depth */
+}
+/* Services section (continued) */
+.service-item h3 {
+  margin: 10px 0; /* Margin around service item headings */
+  color: #121212; /* Dark text color for headings */
+}
+
+.service-item p {
+  font-size: 14px; /* Font size for service item descriptions */
+  line-height: 1.5; /* Line height for readability */
+  box-shadow: 0 2px 5px rgba(91, 100, 229, 0.1); /* Shadow for depth */
+}
+
+/* Button styling */
+.btn {
+  display: inline-block; /* Inline-block display for buttons */
+  padding: 10px 20px; /* Padding inside buttons */
+  margin: 5px 0; /* Margin around buttons */
+  font-size: 16px; /* Font size for button text */
+  text-align: center; /* Center-align text */
+  text-decoration: none; /* Remove underline from text */
+  color: #fff; /* White text color */
+  background-color: #131313; /* Dark background color */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.btn:hover {
+  background-color: #131313; /* Darker shade on hover */
+}
+
+/* Why Choose Us section */
+#why-choose-us {
+  margin-bottom: 40px; /* Spacing below the section */
+  text-align: center; /* Center-align text */
+}
+
+#why-choose-us ul, #why-choose-us ol {
+  max-width: 800px; /* Maximum width for lists */
+  margin: 0 auto; /* Center-align lists */
+  text-align: left; /* Left-align list items */
+}
+
+#why-choose-us ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+#why-choose-us ul li::before {
+  content: "✓"; /* Checkmark before list items */
+  color: #00509e; /* Blue color for checkmarks */
+  margin-right: 8px; /* Spacing between checkmark and text */
+}
+
+#why-choose-us ol li {
+  margin: 5px 0; /* Margin around ordered list items */
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #e6e6e6; /* Light grey background */
+  padding: 20px; /* Padding inside the section */
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Center-align text */
+  margin-bottom: 40px; /* Spacing below the section */
+}
+
+#testimonials p {
+  font-style: italic; /* Italic text for testimonials */
+  margin: 12px 0; /* Margin around testimonial text */
+}
+
+/* Contact Info section */
+#contact-info {
+  text-align: center; /* Center-align text */
+  margin-bottom: 40px; /* Spacing below the section */
+}
+
+#contact-info p {
+  margin: 5px 0; /* Margin around contact info text */
+}
+
+/* Newsletter Signup */
+#newsletter-signup {
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Padding inside the section */
+  background-color: #f1f1f1; /* Light grey background */
+  border-radius: 8px; /* Rounded corners */
+}
+
+#newsletter-signup form {
+  display: inline-block; /* Inline-block display for form */
+  margin-top: 10px; /* Margin above the form */
+}
+
+#newsletter-signup input[type="email"] {
+  padding: 8px; /* Padding inside email input */
+  font-size: 14px; /* Font size for input text */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light grey border */
+  margin-right: 10px; /* Margin to the right of the input */
+}
+
+#newsletter-signup button {
+  padding: 8px 12px; /* Padding inside button */
+  background-color: #00509e; /* Blue background */
+  color: #fff; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+#newsletter-signup button:hover {
+  background-color: #003366; /* Darker blue on hover */
+}
+
+/* General Styles for Doctors Page */
+.doctors-section {
+  padding: 40px 20px; /* Padding inside the section */
+  background-color: #f5f5f5; /* Light grey background */
+}
+
+.doctors-section h2 {
+  font-size: 2rem; /* Font size for section heading */
+  text-align: center; /* Center-align heading */
+  color: #333; /* Dark text color */
+  margin-bottom: 20px; /* Margin below heading */
+}
+
+.doctors-container {
+  display: grid; /* Grid layout for doctor items */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Spacing between items */
+  max-width: 1200px; /* Maximum width for container */
+  margin: 0 auto; /* Center the container */
+}
+
+.doctor-item {
+  background-color: #ffffff; /* White background for doctor items */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  overflow: hidden; /* Ensure shadow is contained */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Vertical layout */
+  align-items: center; /* Center-align content */
+  padding: 20px; /* Padding inside items */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+.doctor-item:hover {
+  transform: translateY(-10px); /* Lift item on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.doctor-img {
+  width: 100%; /* Full width images */
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Cover aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 15px; /* Margin below image */
+}
+
+.doctor-info {
+  text-align: center; /* Center-align text */
+}
+
+.doctor-info h3 {
+  font-size: 1.5rem; /* Font size for doctor names */
+  margin: 10px 0; /* Margin around name */
+  color: #333; /* Dark text color */
+}
+
+.doctor-info p {
+  font-size: 1rem; /* Font size for description */
+  color: #666; /* Light grey text color */
+  line-height: 1.6; /* Line height for readability */
+}
+
+.doctor-info p strong {
+  color: #000; /* Black text for strong elements */
+}
+
+/* Pharmacy related sections */
+.pharmacy-info,
+.pharmacy-benefits,
+.pharmacy-form,
+.pharmacy-hours,
+.pharmacy-contact {
+  margin-bottom: 40px; /* Spacing below each section */
+  padding: 20px; /* Padding inside sections */
+  background-color: white; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.pharmacy-info img,
+.pharmacy-benefits img {
+  width: 100%; /* Full width images */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 600px; /* Maximum width for large images */
+  display: block; /* Display as block */
+  margin: 0 auto; /* Center the images */
+  padding: 20px 0; /* Padding around images */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.pharmacy-info ul,
+.pharmacy-benefits ul,
+.pharmacy-hours ul {
+  list-style-type: disc; /* Disc bullets for lists */
+  padding-left: 20px; /* Padding inside lists */
+}
+
+.pharmacy-form form {
+  display: grid; /* Grid layout for form */
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  gap: 15px; /* Spacing between form elements */
+}
+
+.pharmacy-form label {
+  grid-column: span 2; /* Full-width labels */
+  font-weight: bold; /* Bold text for labels */
+}
+
+.pharmacy-form select,
+.pharmacy-form input[type="number"],
+.pharmacy-form input[type="text"] {
+  grid-column: span 2; /* Full-width fields */
+  padding: 10px; /* Padding inside fields */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light grey border */
+}
+
+.pharmacy-form input[type="checkbox"] {
+  grid-column: 1; /* Single column for checkboxes */
+  align-self: center; /* Center vertically */
+}
+
+/* Pharmacy form button styling */
+.pharmacy-form button {
+  grid-column: span 2; /* Full-width button */
+  padding: 15px; /* Padding inside the button */
+  background-color: #000; /* Black background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for button text */
+}
+
+.pharmacy-form button:hover {
+  background-color: #333; /* Dark grey background on hover */
+}
+
+/* Responsive Design for Pharmacy sections */
+@media (max-width: 768px) {
+  .pharmacy-info,
+  .pharmacy-benefits {
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+  }
+
+  .pharmacy-info img,
+  .pharmacy-benefits img {
+    width: 100%; /* Full width for images */
+  }
+
+  .pharmacy-form form {
+    grid-template-columns: 1fr; /* Single column layout for forms */
+  }
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 24px; /* Smaller font size for headings on small screens */
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack navigation items vertically */
+  }
+
+  nav ul li {
+    margin: 5px 0; /* Reduced margin for navigation items */
+  }
+
+  nav ul li a {
+    display: block; /* Block display for navigation links */
+    padding: 10px; /* Padding inside links */
+    background: #333; /* Dark background for links */
+    text-align: center; /* Center-align text inside links */
+  }
+}
+
+/* Footer styling */
+footer {
+  display: block; /* Block display */
+  padding: 10px; /* Padding inside footer */
+  background: #333; /* Dark background color */
+  text-align: center; /* Center-align text */
+  color: #fff; /* White text color */
+}

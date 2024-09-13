@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta charset and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Our Pharmacy</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css/styles.css">
+    <!-- Favicon for the browser tab -->
+    <link rel="icon" href="pictures/medicologo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Header section with logo, navigation menu, and main heading -->
+    <header>
+        <img src="pictures/medicologo.png" alt="Hospital Logo" class="logo">
+        <nav>
+            <ul>
+                <!-- Navigation menu items -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="reservation.html">Consultation</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+            </ul>
+        </nav>
+        <h1>Our Pharmacy</h1>
+    </header>
+    
+    <main>
+        <!-- Section providing information about pharmacy services -->
+        <section class="pharmacy-info">
+            <img src="pictures/friendlypharmacists (2).jpg" alt="Pharmacy services" class="pharmacy-image">
+            <h2>Comprehensive Pharmacy Services</h2>
+            <p>Our pharmacy is dedicated to providing you with exceptional healthcare services. We offer a wide range of prescription and over-the-counter medications, tailored to your specific needs. Our knowledgeable pharmacists are always available to offer advice and guidance.</p>
+            <ul>
+                <!-- List of services provided by the pharmacy -->
+                <li>Prescription medication filling</li>
+                <li>Over-the-counter medication recommendations</li>
+                <li>Medication management and adherence counseling</li>
+                <li>Immunizations</li>
+                <li>Health screenings and consultations</li>
+            </ul>
+        </section>
+
+        <!-- Section highlighting the benefits of choosing this pharmacy -->
+        <section class="pharmacy-benefits">
+            <img src="pictures/friendlypharmacists (1).jpg" alt="Friendly pharmacist" class="pharmacy-image">
+            <h2>Why Choose Our Pharmacy?</h2>
+            <ul>
+                <!-- List of benefits offered by the pharmacy -->
+                <li>Experienced and friendly staff</li>
+                <li>Convenient location and flexible hours</li>
+                <li>Competitive pricing and promotions</li>
+                <li>Fast and accurate prescription filling</li>
+                <li>Personalized service and care</li>
+            </ul>
+        </section>
+
+        <!-- Section with a form for purchasing medicine -->
+        <section class="pharmacy-form">
+            <h2>Buy Medicine</h2>
+            <form>
+                <!-- Dropdown for selecting medicine -->
+                <div class="form-group">
+                    <label for="medicine-select">Select Medicine:</label>
+                    <select id="medicine-select" name="medicine" required>
+                        <option value="" disabled selected>Select a medicine</option>
+                        <option value="Paracetamol">Paracetamol</option>
+                        <option value="Ibuprofen">Ibuprofen</option>
+                        <option value="Cetrizine">Cetrizine</option>
+                        <option value="Azithromycin">Azithromycin</option>
+                    </select>
+                </div>
+
+                <!-- Input for specifying the quantity of medicine -->
+                <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required>
+                </div>
+
+                <!-- Dropdown for selecting payment method -->
+                <div class="form-group">
+                    <label for="payment-method">Payment Method:</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="" disabled selected>Select a payment method</option>
+                        <option value="Credit Card">Credit Card</option>
+                        <option value="Debit Card">Debit Card</option>
+                        <option value="PayPal">PayPal</option>
+                        <option value="Cash">Cash</option>
+                    </select>
+                </div>
+
+                <!-- Input for entering a discount code (if any) -->
+                <div class="form-group">
+                    <label for="discount-code">Discount Code (if any):</label>
+                    <input type="text" id="discount-code" name="discount-code">
+                </div>
+
+                <!-- Textarea for additional information or special instructions -->
+                <div class="form-group">
+                    <label for="additional-info">Additional Information:</label>
+                    <textarea id="additional-info" name="additional-info" rows="4" placeholder="Any special instructions or additional information for special patients"></textarea>
+                </div>
+                
+                <!-- Submit button for the form -->
+                <button type="submit" class="submit-button">Buy Medicine</button>
+            </form>
+        </section>
+
+        <!-- Section displaying the pharmacy's opening hours -->
+        <section class="pharmacy-hours">
+            <h2>Opening Hours</h2>
+            <ul>
+                <li>Monday - Friday: 9 AM - 9 PM</li>
+                <li>Saturday: 10 AM - 6 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </section>
+
+        <!-- Section with contact information for the pharmacy -->
+        <section class="pharmacy-contact">
+            <h2>Contact Us</h2>
+            <p><strong>Address:</strong> 123 Pharmacy Street</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> pharmacy@hospital.com</p>
+        </section>
+    </main>
+
+    <!-- Footer section with copyright information -->
+    <footer>
+        <p>&copy; 2024 Hospital Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character set and viewport settings for responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Document title -->
+    <title>About Us</title>
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css/styles.css">
+
+    <!-- Link to favicon for the browser tab -->
+    <link rel="icon" href="pictures/medicologo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Header section containing logo and navigation -->
+    <header class="header">
+        <!-- Hospital logo image -->
+        <img src="pictures/medicologo.png" alt="Hospital Logo" class="logo">
+
+        <!-- Navigation menu -->
+        <nav>
+            <ul class="nav-list">
+                <!-- Navigation links -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="reservation.html">Consultation</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main heading for the page -->
+        <h1>About Our Hospital</h1>
+    </header>
+
+    <!-- Main content of the page -->
+    <main>
+        <!-- Branches section -->
+        <section class="branch">
+            <h2>Our Branches</h2>
+            <!-- Grid layout for displaying hospital branches -->
+            <div class="branch-grid">
+                <!-- Individual branch items -->
+                <div class="branch-item">
+                    <img src="pictures/b2.jpg" alt="Branch 1 Image" class="responsive-img">
+                    <h3>Kandy</h3>
+                    <p>Location: 123 Main St, City, Country</p>
+                    <p>Description: This branch specializes in cardiac care and advanced surgical procedures.</p>
+                    <!-- Google Maps iframe for the branch location -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.42984403517!2d80.62578144999999!3d7.294545300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!5e0!3m2!1sen!2slk!4v1725866436861!5m2!1sen!2slk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="branch-item">
+                    <img src="pictures/b3.jpg" alt="Branch 2 Image" class="responsive-img">
+                    <h3>Kurunegala</h3>
+                    <p>Location: 456 Elm St, City, Country</p>
+                    <p>Description: Known for its state-of-the-art neurology department and rehabilitation center.</p>
+                    <!-- Google Maps iframe for the branch location -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63293.77266827955!2d80.35778040000001!3d7.480620350000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3398ab06be8b9%3A0x1f90e4e71e885052!2sKurunegala!5e0!3m2!1sen!2slk!4v1725866548759!5m2!1sen!2slk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="branch-item">
+                    <img src="pictures/b4.jpg" alt="Branch 3 Image" class="responsive-img">
+                    <h3>Colombo</h3>
+                    <p>Location: 789 Oak St, City, Country</p>
+                    <p>Description: A leader in pediatric care, providing comprehensive services for children.</p>
+                    <!-- Google Maps iframe for the branch location -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63371.8151251542!2d79.8562055!3d6.92183865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1725866635152!5m2!1sen!2slk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="branch-item">
+                    <img src="pictures/b5.jpg" alt="Branch 4 Image" class="responsive-img">
+                    <h3>Jaffna</h3>
+                    <p>Location: 321 Pine St, City, Country</p>
+                    <p>Description: Offers specialized care in orthopedic and sports medicine.</p>
+                    <!-- Google Maps iframe for the branch location -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31465.037615287867!2d80.02842670000001!3d9.66995755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe53fd7be66aa5%3A0xc7da0d9203baf512!2sJaffna!5e0!3m2!1sen!2slk!4v1725866747867!5m2!1sen!2slk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Hospital Summary section -->
+        <section class="hospital-summary">
+            <h2>Hospital Summary</h2>
+            <!-- Table summarizing hospital departments -->
+            <table>
+                <thead>
+                    <tr>
+                        <!-- Table headers -->
+                        <th>Department</th>
+                        <th>Number of Staff</th>
+                        <th>Specialty Services</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Table rows for each department -->
+                    <tr>
+                        <td>Cardiology</td>
+                        <td>50</td>
+                        <td>Heart Surgery, Angioplasty, Cardiac Rehabilitation</td>
+                    </tr>
+                    <tr>
+                        <td>Neurology</td>
+                        <td>40</td>
+                        <td>Brain Surgery, Stroke Rehabilitation, Epilepsy Treatment</td>
+                    </tr>
+                    <tr>
+                        <td>Pediatrics</td>
+                        <td>30</td>
+                        <td>Child Wellness, Pediatric Surgery, Neonatal Care</td>
+                    </tr>
+                    <tr>
+                        <td>Orthopedics</td>
+                        <td>35</td>
+                        <td>Joint Replacement, Spine Surgery, Sports Medicine</td>
+                    </tr>
+                    <tr>
+                        <td>Gynecology</td>
+                        <td>25</td>
+                        <td>Maternal Care, Fertility Treatment, Gynecologic Surgery</td>
+                    </tr>
+                    <tr>
+                        <td>Radiology</td>
+                        <td>20</td>
+                        <td>CT Scans, MRI, Interventional Radiology</td>
+                    </tr>
+                    <tr>
+                        <td>Oncology</td>
+                        <td>45</td>
+                        <td>Chemotherapy, Radiation Therapy, Immunotherapy</td>
+                    </tr>
+                    <tr>
+                        <td>Emergency Medicine</td>
+                        <td>60</td>
+                        <td>Trauma Care, Acute Medical Treatment, Rapid Response</td>
+                    </tr>
+                    <tr>
+                        <td>Dermatology</td>
+                        <td>15</td>
+                        <td>Skin Surgery, Laser Treatment, Cosmetic Dermatology</td>
+                    </tr>
+                    <tr>
+                        <td>Ophthalmology</td>
+                        <td>20</td>
+                        <td>Vision Correction, Cataract Surgery, Glaucoma Treatment</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <!-- Table footer summarizing total departments and staff -->
+                    <tr>
+                        <td colspan="3">Total Departments: 10 | Total Staff: 340</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer section for copyright information -->
+    <footer>
+        <p>&copy; 2024 Hospital Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
